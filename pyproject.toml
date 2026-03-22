@@ -1,0 +1,14 @@
+[project]
+name = "vaf-am-build-07-compliance"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "VAF AM Series: FCA Compliance Checker — Built with Claude AI"
+dependencies = [
+    "anthropic>=0.40.0",
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.7.0",
+    "python-dotenv>=1.0.0",
+    "aiosqlite>=0.20.0",
+]
+[project.optional-dependencies]
+dev = ["pytest>=8.3.0"]
